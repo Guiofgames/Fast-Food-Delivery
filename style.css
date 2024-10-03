@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    background-color: #f4ece1;
+    color: #000000;
+    padding-left: 60px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.cabecalho {
+    flex-direction: row;
+    display: flex;
+    align-items: flex-end;
+    gap: 60px;
+}
+.cabecalho a{
+    text-decoration: none;
+    color: black;
+    font-family: "Poppins";
+}
+.logo{
+    width: 94px;
+    height: 45px;
+}
+#divBusca{
+    border:solid 2px;
+    border-radius:30px;
+    width:265px;
+    height:32px;
+    padding: 10px 20px;
+    box-shadow: 7px 10px 18px 0px rgba(199,197,199,1);
+    border:none;
+    margin-right: 94px;
+}
+#txtBusca{
+    float:left;
+    background-color:transparent;
+    padding-left:10px;
+    font-size:18px;
+    border:none;
+    height:32px;
+    width:191px;
+  }
+  #btnBusca{
+    border:none;
+    height:25px;
+    border-radius:30px;
+    background-color: #f4ece1;
+    align-items: center;
+  }
+
+  #divBusca img{
+    float:left;
+    align-items: center;
+    margin-top: 5px;
+    margin-right: 5px;
+  }
+.image img{
+    width: 750px;
+    height: 712px;
+    margin-right: 94px;
+}
+.tiozan2{
+    font-family: "Poppins";
+    font-size: 22px;
+    color: #909090;
+    margin-top: 24px;
+    margin-left: 24px;
+}
+.buttons{
+    background-color: #000000;
+    border-radius: 40px;
+    height:25px;
+    border-radius:30px;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    font-family: "Poppins";
+}
